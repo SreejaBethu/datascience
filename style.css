@@ -17,7 +17,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--bg-color);
-    background-image: radial-gradient(ellipse 30% 30% at 90% 50%, rgba(138, 43, 226, 0.1), transparent);
+    background-image: radial-gradient(ellipse 15% 10% at 70% 30%, rgba(138, 43, 226, 0.08), transparent);
     color: var(--text-color);
     margin: 0;
 }
@@ -70,9 +70,14 @@ h2 {
     align-items: center;
     font-size: 48px;
     font-weight: 700;
-    background: var(--text-gradient);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #8efeff; /* bright solid color */
+    background: none;
+    text-shadow:
+        0 0 5px #8efeff,
+        0 0 10px #8efeff,
+        0 0 20px #8efeff,
+        0 0 40px #8efeff;
+    
 }
 .hero-content h1 {
     font-size: 4.5rem;
